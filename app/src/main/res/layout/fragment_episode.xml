@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="?attr/actionBarSize"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EpisodeFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:background="#000"
+        android:id="@+id/episode_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+</FrameLayout>
